@@ -13,15 +13,16 @@ export const options = {
         return { ...profile, role: userRole };
       },
       clientId: process.env.GITHUB_ID,
-      clientSecret: process.env.GITHUB_Secret,
+      clientSecret: process.env.GITHUB_SECRET,
     }),
     GoogleProvider({
       profile(profile) {
         console.log('Profile Google: ', profile);
+        let userRole = 'Google User';
         return { ...profile, id: profile.sub, role: userRole };
       },
       clientId: process.env.GOOGLE_ID,
-      clientSecret: process.env.GOOGLE_Secret,
+      clientSecret: process.env.GOOGLE_SECRET,
     }),
   ],
   callbacks: {
