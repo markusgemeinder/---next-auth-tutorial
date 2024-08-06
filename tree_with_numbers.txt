@@ -1,0 +1,39 @@
+     1	.
+     2	├── README.md
+     3	├── app
+     4	│   ├── (components)
+     5	│   │   ├── AuthProvider.js
+     6	│   │   ├── Nav.jsx
+     7	│   │   └── UserForm.jsx
+     8	│   ├── (models)
+     9	│   │   └── User.js
+    10	│   ├── ClientMember
+    11	│   │   └── page.jsx
+    12	│   ├── CreateUser
+    13	│   │   └── page.jsx
+    14	│   ├── Denied
+    15	│   │   └── page.jsx
+    16	│   ├── Member
+    17	│   │   └── page.jsx
+    18	│   ├── Public
+    19	│   │   └── page.jsx
+    20	│   ├── api
+    21	│   │   ├── Users
+    22	│   │   │   └── route.js
+    23	│   │   └── auth
+    24	│   │       └── [...nextauth]
+    25	│   │           ├── options.js
+    26	│   │           └── route.js
+    27	│   ├── globals.css
+    28	│   ├── layout.js
+    29	│   └── page.jsx
+    30	├── jsconfig.json
+    31	├── middleware.js
+    32	├── next.config.mjs
+    33	├── package.json
+    34	├── postcss.config.mjs
+    35	├── tailwind.config.js
+    36	├── tree_with_numbers.txt
+    37	└── verzeichnisbaum_mit_zeilennummern.txt
+      	
+    38	13 directories, 24 files
